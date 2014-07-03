@@ -1,3 +1,6 @@
+run: cccbDisplay
+	@./cccbDisplay
+
 cccbDisplay: main.c ledwand.c
 	@gcc --std=gnu99 -o $@ $^ -lz -lm
 
